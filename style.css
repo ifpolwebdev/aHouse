@@ -196,11 +196,13 @@ html {
   background-color: rgb(85, 68, 24);
   transform-origin: right;
   transition: transform 1s 0.5s;
+  transform-origin: right;
+  transition: transform 1s 0.5s;
 }
 
-/* .door.change {
+.door.change {
   transform: rotateY(30deg);
-} */
+}
 
 .door-handle {
   width: 3rem;
@@ -214,6 +216,6 @@ html {
   transition: transform 0.5s;
 }
 
-/* .door.change .door-handle {
+.door.change .door-handle {
   transform: rotateZ(20deg);
-} */
+}
